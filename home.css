@@ -423,18 +423,20 @@ span {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .com-child {
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-color:#F5F7FA;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #f5f7fa;
 }
 
-.support{
+.support {
   color: #ffffff;
   width: 160px;
   height: 200px;
@@ -443,12 +445,43 @@ color:#F5F7FA;
   font-weight: 600;
   line-height: 28px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-.sup-child{
+.sup-child {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  color:#F5F7FA;
+  color: #f5f7fa;
+}
+
+.stay {
+  color: #ffffff;
+  width: 254px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.stayup {
+  width: 160px;
+  height: 28px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.email {
+  width: 254px;
+  height: 40px;
+  background-color: grey;
+  border: none;
+  border-radius: 8px;
+  color: #f5f7fa;
 }
